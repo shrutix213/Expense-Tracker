@@ -1,33 +1,35 @@
+💰 Expense Tracker
 
-Expense Tracker 💰
-
-A simple and user-friendly expense tracking web application built with Python and Flask. It allows users to record expenses, view their spending, and manage transactions through a clean dashboard.
+A simple web-based expense tracking application built using Python and Flask. This project helps users record expenses, view transactions, calculate total spending, and delete expense entries through a clean dashboard.
 
 🌐 Live Demo
 
-Try the application: https://expense-tracker-32s5.onrender.com/
+"Open Expense Tracker" (https://expense-tracker-32s5.onrender.com/)
 
 ✨ Features
 
-- Add Expenses: Record an expense using a category and amount.
-- View Expenses: See all recorded expenses in one place.
-- Calculate Total Spending: Automatically calculate the total of recorded expenses.
-- Delete Expenses: Remove individual expense entries.
-- Input Validation: Prevent empty categories, invalid amounts, and zero or negative amounts.
-- Data Persistence: Store expense records in a JSON file when running locally.
-- Responsive Interface: A clean dashboard designed using HTML and CSS.
+- Add Expenses: Record expenses with a category and amount.
+- View Transactions: Display recorded expenses in a list.
+- Automatic Total: Calculate total spending automatically.
+- Delete Expenses: Remove individual expense records.
+- Input Validation: Reject empty categories and invalid, zero, or negative amounts.
+- JSON Storage: Save expense records locally in a JSON file.
+- Responsive Design: Use the dashboard on desktop and mobile screens.
 
-🛠️ Technologies Used
+🛠️ Tech Stack
 
-- Python
-- Flask
-- HTML5
-- CSS3
-- JSON
-- Git and GitHub
-- Render
+Technology| Purpose
+Python| Application logic
+Flask| Web framework
+HTML5| Page structure
+CSS3| Styling and layout
+JSON| Local data storage
+Git & GitHub| Version control
+Render| Web hosting
 
-📁 Project Structure
+📸 Screenshots
+
+<!-- Add a screenshot after saving it to screenshots/dashboard.png --><!-- ![Expense Tracker Dashboard](screenshots/dashboard.png) -->📁 Project Structure
 
 Expense-Tracker/
 ├── app.py
@@ -40,15 +42,20 @@ Expense-Tracker/
 └── static/
     └── style.css
 
-The "expenses.json" file is created locally when needed and is excluded from GitHub to avoid publishing personal expense records.
+Note: "expenses.json" is created locally when needed and is excluded from the GitHub repository.
 
 🚀 Run Locally
+
+Prerequisites
+
+- Python installed
+- pip package installer
 
 1. Clone the repository
 
 git clone https://github.com/shrutx213/Expense-Tracker.git
 
-2. Open the project folder
+2. Navigate to the project folder
 
 cd Expense-Tracker
 
@@ -56,28 +63,35 @@ cd Expense-Tracker
 
 pip install -r requirements.txt
 
-4. Start the application
+4. Run the application
 
 python app.py
 
 5. Open the application
 
-Visit http://127.0.0.1:5000/ in your browser.
+Visit "http://127.0.0.1:5000/" (http://127.0.0.1:5000/) in your browser.
 
-⚠️ Deployment Note
+⚠️ Storage Limitation
 
-The application uses a local JSON file for storage. The hosted demo may not retain changes across service restarts or redeployments. Persistent storage or a database would be needed for more reliable hosted data storage.
+The application uses a local JSON file to store expenses. The hosted demo may not retain changes after a service restart or redeployment because the hosting filesystem may be temporary. Persistent storage or a database would be needed for more reliable hosted storage.
 
-🎯 Project Objective
+🎯 Learning Objectives
 
-This project was created to practise Python programming, Flask web development, HTML and CSS, input validation, file handling, and Git-based version control.
+This project was built to practise:
+
+- Python programming and functions
+- Flask routes and form handling
+- HTML templates and CSS styling
+- Input validation and exception handling
+- Reading and writing JSON files
+- Git, GitHub, and web deployment
 
 👩‍💻 Author
 
 Shruti Bute
 
-GitHub: https://github.com/shrutx213
+"GitHub Profile" (https://github.com/shrutx213)
 
 ---
 
-Built as a learning project to develop practical web development skills.
+Built as a beginner project to practise Python and web development.
